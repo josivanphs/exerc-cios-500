@@ -3,7 +3,7 @@ import 'dart:io';
 main() {
   int a, b, c, d;
   double mp;
-  print('Entre com 1 número: ');
+  stdout.write('Entre com 1 número: ');
   a = int.parse(stdin.readLineSync()!);
   print('Entre com 2 número: ');
   b = int.parse(stdin.readLineSync()!);
